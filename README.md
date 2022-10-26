@@ -1,3 +1,7 @@
+This project is part of me learning React.
+
+You might see cute monsters and random names :D
+
 # Getting Started with Monsters-Rolodex
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
