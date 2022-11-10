@@ -6,7 +6,6 @@ import CardList from "./components/card-list/card-list.component";
 import SearchBox from "./components/search-box/search-box.component";
 
 const App = () => {
-  console.log("render");
   const [searchField, setSearchField] = useState(""); // [value, setValue]
   const [monsters, setMonsters] = useState([]);
   const [filteredMonsters, setFilteredMonsters] = useState(monsters);
@@ -25,7 +24,6 @@ const App = () => {
     const newFilteredMonsters = monsters.filter((monster) =>
       monster.name.toLocaleLowerCase().includes(searchField)
     );
-    console.log("effect is firing");
     setFilteredMonsters(newFilteredMonsters);
   }, [searchField, monsters]);
 
